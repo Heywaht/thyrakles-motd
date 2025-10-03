@@ -4,7 +4,7 @@
 apt update -y 
 apt install toilet -y
 apt install update-notifier -y
-
+apt install curl -y
 # Download the archive
 curl -L https://github.com/Heywaht/thyrakles-motd/archive/master.tar.gz | tar -zxv
 
