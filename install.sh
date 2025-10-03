@@ -13,7 +13,7 @@ mkdir /etc/update-motd.d/old-motd
 mv /etc/update-motd.d/* /etc/update-motd.d/old-motd
 
 # Move unzipped motd files to /etc
-mv spookdev-motd-master/motd/* /etc/update-motd.d
+mv thyrakles-motd-master/motd/* /etc/update-motd.d
 
 # Clean up downloaded files
-rm -rf spookdev-motd-master
+rm -rf thyrakles-motd-master
