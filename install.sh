@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Install packages
-apt update
+apt update -y 
 apt install toilet -y
 apt install update-notifier -y
 
 # Download the archive
-curl -L https://github.com/NeonWizard/spookdev-motd/archive/master.tar.gz | tar -zxv
+curl -L https://github.com/Heywaht/thyrakles-motd/archive/master.tar.gz | tar -zxv
 
 # Move old motd files to directory
 mkdir /etc/update-motd.d/old-motd
